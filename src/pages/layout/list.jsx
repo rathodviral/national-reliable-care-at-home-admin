@@ -44,9 +44,6 @@ const LayoutList = ({ list, isPage }) => {
                 <div className="fw-bold">{item.name}</div>
                 {item.type}
               </div>
-              {/* <Badge bg="primary" pill>
-                14
-              </Badge> */}
             </ListGroup.Item>
           ))}
         {list.length === 0 && (

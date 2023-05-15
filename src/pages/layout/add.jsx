@@ -83,7 +83,15 @@ const AddLayout = ({ isEdit }) => {
       addlayoutClick(params);
     }
   };
-
+  // const l = [
+  //   "presentation",
+  //   "page-title",
+  //   "service",
+  //   "work",
+  //   "testimonial",
+  //   "action",
+  //   "service-detail"
+  // ];
   return (
     <React.Fragment>
       <Card className="w-100">

@@ -28,7 +28,7 @@ const Login = () => {
         username: { value: username },
         password: { value: password }
       } = form.elements;
-      if (username === "roopa" && password === "roopa@123") {
+      if (username === "admin" && password === "admin@123") {
         AppStorage.setItemInStorage(APP_STORAGE, { username, password });
         history.replace("/home");
       } else {

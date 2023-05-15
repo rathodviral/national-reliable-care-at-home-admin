@@ -61,13 +61,15 @@ const AppContextProvider = (props) => {
 
   const getLayoutListData = async () => {
     const data = await getLayouts();
-    const parsedData = data.map((item) => {
-      return {
-        ...item,
-        content: JSON.parse(item.content),
-        other: JSON.parse(item.other)
-      };
-    });
+    const parsedData = data
+      .map((item) => {
+        return {
+          ...item,
+          content: JSON.parse(item.content),
+          other: JSON.parse(item.other)
+        };
+      })
+      .sort((a, b) => (a.name > b.name ? 1 : b.name > a.name ? -1 : 0));
     setLayoutList(parsedData);
   };
 

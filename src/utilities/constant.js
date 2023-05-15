@@ -58,30 +58,6 @@ export const SWITCH = [
   { name: "Yes", value: true },
   { name: "No", value: false }
 ];
-export const IMAGES = [
-  "img/service-1.jpg",
-  "img/service-2.jpg",
-  "img/service-3.jpg",
-  "img/service-4.jpg",
-  "img/slider-1.jpg",
-  "img/slider-2.jpg",
-  "img/slider-3.jpg",
-  "img/slider-4.jpg",
-  "img/footer-1.jpg",
-  "img/footer-2.jpg",
-  "img/footer-3.jpg",
-  "img/footer-4.jpg",
-  "img/1.jpg",
-  "img/2.jpg",
-  "img/3.jpg",
-  "img/4.jpg",
-  "img/r1.jpg",
-  "img/r2.jpg",
-  "img/r3.jpg",
-  "img/r4.jpg",
-  "img/me.jpg",
-  "img/6.jpg"
-];
 
 const getServiceObj = (icon) => ({
   buttonLink: "",
