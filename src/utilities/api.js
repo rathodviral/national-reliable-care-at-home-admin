@@ -1,5 +1,4 @@
-export const baseURL =
-  "https://viralrathod.in/national-reliable-care-at-home/server";
+export const baseURL = "https://nrchome.com.au/server";
 // export const baseURL = "http://localhost/national-reliable-care-at-home-server";
 
 export default function AppApiFetch(apiEndPointName, options) {

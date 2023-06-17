@@ -2,7 +2,7 @@
   "name": "national-reliable-care-at-home-admin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://viralrathod.in/national-reliable-care-at-home/admin/",
+  "homepage": "http://nrchome.com.au/admin/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
